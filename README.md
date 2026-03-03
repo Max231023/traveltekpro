@@ -1,4 +1,4 @@
-# TravelTek
+# TravelTek Pro
 
 A Flutter travel and booking app with splash screen, home feed, and tabbed navigation.
 
@@ -17,7 +17,11 @@ A Flutter travel and booking app with splash screen, home feed, and tabbed navig
 
 ## Setup
 
-1. Clone the repository
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Max231023/traveltekpro.git
+   cd traveltekpro
+   ```
 2. Install dependencies:
    ```bash
    flutter pub get
@@ -40,6 +44,7 @@ A Flutter travel and booking app with splash screen, home feed, and tabbed navig
 lib/
 ├── app/
 │   ├── core/
+│   │   ├── models/         # Data models (trending, flash deals, life exp)
 │   │   └── theme/          # Colors, styles, constants
 │   ├── modules/
 │   │   ├── home/           # Home view, controller, binding
@@ -50,6 +55,6 @@ lib/
 
 ## Dependencies
 
-- **getX** – State management and routing
+- **get** – State management and routing
 - **flutter_svg** – SVG asset rendering
 - **google_fonts** – Custom typography
